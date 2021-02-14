@@ -21,6 +21,24 @@ svg text#chk {
   background-color: #85b9e9;
 }
 
-.sizer{
-  width: 800px;
+
+.bg-image{
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.bg-image .caption{
+  font-size: 130%;
+  text-align: center;
+}
+
+.bg-image .mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: ;
+  background-color: rgba(0 , 0, 0, 0.4);
+  
 }
