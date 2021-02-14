@@ -11,6 +11,10 @@ body {
   padding-bottom: 1.5rem;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
